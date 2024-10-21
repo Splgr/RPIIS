@@ -1,0 +1,391 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx} %
+\graphicspath{ {./images/} }
+\usepackage{amsmath}  % For mathematical symbols and environments
+\usepackage{amssymb}  % For extra math symbols
+\usepackage{amsfonts} % For mathematical fonts
+\usepackage{geometry} % For page layout adjustments
+\usepackage{array}    % For more table control
+
+\usepackage{booktabs} % For professional-looking tables
+\geometry{a4paper, margin=0.8in}  
+\usepackage[rightcaption]{sidecap}
+\usepackage{multicol}
+
+\begin{document}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{IMG_0489.jpeg}
+    \caption{Variant 1 illustration.}
+    \label{fig:enter-label}
+\end{figure}
+
+\[
+\begin{cases}
+    u=(A*(B-A))*B^2/\bigl((A*B)^2 - A^2*B^2\bigl)\\
+    v=((A-B))*B)*A^2/\bigl((A*B)^2 - B^2*A^2\bigl)
+\end{cases}\]
+ Let the following \\
+ \[ 
+ D=H_{AB}
+\]
+\[ \\
+D\;'= H_{A\;'B}
+\] 
+\[1_{A{\;'}}=-1_A\]
+\[1_{D\;'}=H_{1_{A\;'}1_{B}}\]\\
+Variant 1: The angle between vectors A (vector $A\;' = A - 1_{A}$ and B is obtuse $(A*B < 0)$, the perpendicular
+to vector $A\;'$
+intersects the perpendicular to B before B
+$||B||\leq||A\;'||/cos(\langle A\;, B \rangle)$(see Fig.1) then the length of the result is equal to the radio of areas:
+   {\scriptsize
+ \[
+\frac{2* ||D\;' - A\;'||-||1_{A\;'} - A\;'||)*ctg(\langle A\;',B \rangle)*||1_{a\;'}-A\;'||/2}{(1_{A\;'}*(1_{D\;'}-1_{A\;'})+ 1_{B}*(1_{D\;'}-1_{B}))/2}
+  \]  }
+\\
+Variant 2. The angle between vectors A (vector $A\;'=A-1_{A}$) and B is obtuse ($A*B<0$), the perpendicular
+to vector $A\;'$
+intersects B before the perpendicular to it $||B||\geq||A\;'||/cos(\langle A\;',B \rangle\rangle)$(see Fig.2) then the length
+of the result is equal to the ratio of areas:
+\[
+\frac{\frac{(||1_A\;'||^2-||A\;'||^2)} {ctg(\langle A\;',B \rangle)} - \biggl(\frac{||1_{A\;'}||}{cos(\langle A\;',B\rangle)} -||B||\biggl)^2 * ctg(\langle A\;, B  \rangle)}{2*(1_{A\;'}*(1_{D\;'}-1_{A\;'}) + 1_{B}*(1_{D\;'} - 1_{B}))/2}
+\]
+
+Variant 3. The angle between vectors A (vector $A\;' = A - 1_{A}$) and B is obtuse ($A * B < 0$), the perpendicular
+to vector $A\;'$
+intersects the perpendicular to B before B $||B||\leq ||A||/cos(\langle A\;',B\rangle)$ (see Fig.3) then the length
+of the result is equal to the ratio of areas:
+\[
+\frac{||D\; - A\;'||*||D\;'-A\;'||*tg(\langle A\;', B \rangle)/2}{1_{A\;'}*(1_{D\;'}-1_{A\;'})+1_{B}*(1_{D\;'}-1_{B})/2}
+
+\]
+Variant 4. The angle between vectors A (vector $A\;'=A-1_{A}$) and B is obtuse $(A*B<0)$, the perpendicular
+to vector $A\;'$
+intersects B before the perpendicular to it
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\linewidth]{photo_5397586234286662581_x.jpg}
+    \caption{Variant 2 illustration.}
+    \label{fig:enter-label}
+\end{figure}
+\\
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{photo_5397586234286662601_x.jpg}
+    \caption{Variant 3 illustration.}
+    \label{fig:enter-label}
+\end{figure}  
+\\
+\\
+
+$||B||>||A\;'||/cos(\langle A\;', B \rangle\rangle)$ (see Fig. 4) then the length of the result is equal to the ratio of areas: 
+\\
+\\
+\[
+\frac{||B||*||B||-||A\;'||*||A\;'||*tg(\langle A\;', B \rangle)/2}{1_{A\;'}*(1_{D\;'}-1_{A\;'}) + 1_{B}*(1_{D\;'}-1_{B})/2}
+\]
+\\
+Variant 5. Vectors A and B are co-oriented then the
+length of the result is: \textit{min} $({||A||}\cup{||B||}).$
+\\
+Variant 6. The angle between vectors A and B is acute
+$(A*B>0)$, the perpendicular to vector A intersects B
+before the perpendicular to it $||B||>||A||/cos(\langle A, B\rangle)$ (see Fig.5) then the length of the result is equal to the
+\\
+\\
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\linewidth]{photo_4.jpg}
+    \\
+    \caption{Variant 4 illustration.} 
+    \label{fig:enter-label}
+\end{figure}
+
+\newpage
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.72\linewidth]{photo_5397586234286663075_y.jpg}
+    \caption{Variant 6 illustration.}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.75\linewidth]{fig 6.jpg}
+    \caption{Variant 7 illustration.}
+    \label{fig:enter-label}
+\end{figure}
+ratio of areas:
+\[
+\frac{A*(D-A)/2}{(1_{A}*(1_{D}-1_{A})+1_{B}*(1_{D}-1_{B}))/2}
+\]
+
+Variant 7. The angle between vectors A and B is acute 
+$(A*B >0)$ , the perpendicular to vector A intersects the
+perpendicular to B before B $||B||\leq ||A||/cos(\langle A, B \rangle)$ (see Fig. 6)  then the length of the result is equal to the ratio of areas: 
+\\
+\[
+\frac{((A+B)*D-A*A-B*B)/2}{(1_{A}*(1_{D}-1_{A})+1_{B}*(1_{D}-1_{B}))/2}
+\]
+\\
+Variant 8. Vectors A and B are orthogonal
+$(\bigl( A * B = 0) \wedge (||A|| + ||B|| > 0\bigl))$ (see Fig.7) then the length of the result is equal to the ratio of areas: $||A||*||B||/1.$
+Variant 9. Vectors A and B are differently directed,
+then the length of the result is equal to:
+\\
+\[
+\textit{max}\bigl({0}\cup{A+B-1}\bigl)
+\]
+\\
+Properties of negation:
+\[
+A=\sim (\sim A)
+\]
+\[
+0=\sim 1
+\]
+\[
+1=\sim 0
+\]
+\\
+Properties of conjunction:
+\begin{itemize}
+\item zero element
+\end{itemize}
+\[ 
+A\stackrel{\sim}{\wedge}0 = 0
+\]
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{photo_5397586234286663299_y.jpg}
+    \caption{Variant 8 illustration.}
+    \label{fig:enter-label}
+\end{figure} 
+\\
+
+\begin{itemize}
+\item neutral element
+\end{itemize} 
+\[ 
+A\stackrel{\sim}{\wedge}1=A
+\]
+\begin{itemize}
+    \item idempotency
+\end{itemize}
+\[
+A\stackrel{\sim}{\wedge}A=A
+\]
+
+\begin{itemize}
+    \item commutativity
+\end{itemize}
+\[
+A\stackrel{\sim}{\wedge}B=B\stackrel{\sim}{\wedge}A
+\]
+
+\begin{itemize}
+    \item non-associativity
+\end{itemize}
+\[
+\neg  (A\stackrel{\sim}{\wedge}(B\stackrel{\sim}{\wedge}C)=(A\stackrel{\sim}{\wedge}B)\stackrel{\sim}{\wedge}C)
+\]
+
+\begin{itemize}
+    \item non-monotonicity
+\end{itemize}
+\[
+ \neg  (A \leq B \rightarrow A \stackrel{\sim}{\wedge} C \leq B \stackrel{\sim}{\wedge})
+\]
+
+\begin{itemize}
+    \item monotonicity in direction
+\end{itemize}
+\[
+A \stackrel{\leftarrow}{\leq} B \rightarrow A \stackrel{\sim}{\wedge} C \stackrel{\leftarrow}{\leq} B \stackrel{\sim}{\wedge} C
+\]
+Properties of disjunction:
+\[
+A \stackrel{\sim}{\vee} B =\sim  \bigl(( \sim A) \stackrel{\sim}{\wedge} (\sim B) \bigl)
+\]
+
+Properties of implication:
+\[
+A \sim  > B = \bigl((\sim A) \stackrel{\sim}{\wedge} B \bigl)
+\]
+
+Properties of a fuzzy measure [16]:
+\[
+A \stackrel{\sim}{\wedge} B \leq A
+\]
+\[
+A \leq A \stackrel{\sim}{\vee} B
+\]
+
+As concrete structural-static models we can consider
+finite models or simplicial complexes [1], and also we
+can consider their generalizations, for example, as a
+residual simplicial complex. Let us consider variants
+with simplicial complexes. An important question of such
+consideration is the canonical form of the corresponding
+simplicial complex.
+For simplicial complexes and the corresponding sets
+defined by them, the (generalized) operations of union $\stackrel{\wedge}{\cup}$ an intersection $\stackrel{\wedge}{\cap}$ are naturally defined.
+\newpage
+
+
+Each argument of the parameterized fuzzy expression can be matched with a residual simplicial complex as one of the parameters. We will also use the notion of residual simplicial complex to represent the results of parameterized fuzzy logics.
+
+The residual simplicial complex can be given by $2n$-simplicial complexes $(C_1, C_2, ..., C_{2n})$ through an expression of the form:
+
+\[
+C_1 / (C_2 / (\ldots / C_{2n}))
+\]
+
+For a residual simplicial complex the following is true:
+
+\[
+C_{i+1} \subseteq C_i
+\]
+\[
+C_{i+2} \subseteq \partial C_i
+\]
+\[
+(X \in C_i \cap C_{i+1}) \implies \exists Y (Y \in C_i / C_{i+1}) \land (\emptyset \subseteq Y \cap X)
+\]
+\[
+\emptyset \subseteq C_{2+n}
+\]
+\[
+\partial C =  \bigcup_{X \in C} 2 ^ X / {X}
+\]
+
+The height of the residual complex is $2n$.
+
+We will consider simplicial complexes covering points of subsets of the set of points of the space spanned by the universal simplicial complex $U$ whose residual simplicial complex is $(U, \emptyset, \ldots, \emptyset)$.
+
+The complement with $U/ C$ of the residual simplicial complex $(C_1, C_2, \ldots, C_{2n})$ will be the height complex $2m * (m \leq n)$:
+
+\[
+D_1 / (D_2 / (\ldots / D_{2*m}))
+\]
+with such smallest $T_i, T_k$ $(2 \leq k \leq n)$:
+\[
+U/ \bigl( \bigcup_{i=1}^{n} C_{2*i-1/C_{2+i}}\big) \subseteq T_{1} \subseteq U
+\]
+\[
+C_{k-1}/ \bigl( \bigcup_{i=1}^{m-k+1} C_{2*i-1=k}/C_{2*i+k} \bigl) \subseteq T_{k} \subseteq C_{k-1}
+\]
+\[
+D{1}/ \bigl( \bigcup_{i=1}^{m} D_{2*i}/D_{2*i+1} \bigl) = T_{1}/ \bigl( \bigcup_{i=1}^{n} T{2*i}/T_{2*i+1} \bigl)
+\] 
+\[
+((m<i) \wedge (i \leq n)) \rightarrow (T_{i} = \emptyset)
+\] The intersection $O = I \hat{\cap} E $ of the two residual simplicial complexes I and E $( n \leq m) $ is the height complex $2*l(l \leq n*(2*m - n =1)$:
+\[ 
+O_{1}/(O_{2}/(.../O_{2*l}))
+\]
+
+The tiers of the residual simplicial complex are filled in
+according to the tables Table III $  (E0 = E10), Table IV)$
+in accordance with the order:
+\\
+ The difference $O = I \hat{/} E$ of the two residual simplicial
+complexes I and E $( n \leq m)$ is the height complex $2*l(l \leq n * (2*m - n + 1)$:
+\[
+I \hat{/} E = I \hat{\cap} (U \hat{/} E)
+\] 
+
+
+
+\renewcommand{\arraystretch}{1.0}
+\setlength{\tabcolsep}{2.5pt}
+\begin{center}
+Table III\\
+Computable operations for calculating the intersection of two residual
+simplicial complexes
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+$I_1 \cap E_1$ & $I_2 \cap E_{2}$ & $I_3 \cap E_{1}$ & $I_4 \cap E_{4}$ & $I_5 \cap E_{1}$ & $I_6 \cap E_{0}$   \\
+\hline
+$I_{2} \cap E_2$ & $I_{2} \cap E_{2}$ & $I_{2} \cap E_{}$ & $I_{4} \cap E_{4}$ & $I_{5} \cap E_{2}$ & $I_{6} \cap E_{0}$  \\
+\hline
+$I_{1} \cap E_3$ & $I_{2} \cap E_{2}$ & $I_{3} \cap E_{3}$ & $I_{4} \cap E_{4}$ & $I_{5} \cap E_{3}$ & $I_{6} \cap E_0$ \\
+\hline
+$I_{4} \cap E_4$ & $I_{4} \cap E_{4}$ & $I_{4} \cap E_{4}$ & $I_{4} \cap E_{4}$ & $I_{4} \cap E_4$ & $I_{6}\cap E_0$  \\
+\hline
+$I_1 \cap E_5$ & $I_{2} \cap E_{5}$ & $I_{3} \cap E_{5}$ & $I_{4} \cap E_4$ & $I_{5} \cap E_5$ & $I_{6} \cap E_0$ \\
+\hline
+$I_{6} \cap E_6$ & $I_{6} \cap E_{6}$ & $I_{6} \cap E_6$ & $I_{6} \cap E_6$ & $I_{6} \cap E_6$ & $I_{6} \cap E_0$ \\
+\hline
+$I_{1} \cap E_7$ & $I_{2} \cap E_7$ & $I_{3} \cap E_7$ & $I_{4} \cap E_7$ & $I_{5} \cap E_7$ & $I_{6} \cup E_0$ \\
+\hline
+$I_6 \cup E_8$ & $I_6 \cup E_8$ & $I_6 \cup E_8$ & $I_6 \cup E_8$ & $I_6 \cup E_8$ & $I_6 \cup E_0$  \\
+\hline
+
+$I_{1} \cap E_9$ & $I_{2} \cap E_9$ & $I_{3} \cap E_9$ & $I_{4} \cap E_9$ & $I_{5} \cap E_9$ & $I_{6} \cup E_0$ \\
+\hline
+$I_6 \cup E_0$ & $I_6 \cup E_0$ & $I_6 \cup E_0$ & $I_6 \cup E_0$ & $I_6 \cup E_0$ & $I_6 \cup E_0$  \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+\begin{flushleft}
+\textbf{Table IV.} Sequence (transposed) of computable operations to compute the intersection of two residual simplicial complexes
+\end{flushleft}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+1  & 2 &3&6&7&12&13&18&19&24 \\
+\hline
+2&4&4&6&8&12&14&18&20&24 \\
+\hline
+3&4&5&6&9&12&15&18&21&24 \\
+\hline
+6&6&6&10&10&12&16&18&22&24 \\
+\hline
+7&8&9&10&11&12&17&18&23&24 \\
+\hline
+24&24&24&24&24&24&24&24&24&24 \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{1em}
+
+The residuum $O = I \hat{\rightarrow} E$ of the two residual simplicial complexes $I$ and $E$ $(n \leq m)$ will be the height complex $2l$ $(l \leq n*(2m - n + 1))$:
+
+\[
+I \hat{\rightarrow} E = U \hat{/} (I \hat{/} E)
+\]
+
+The union of $O = I \cup E$ of the two residual simplicial complexes $I$ and $E$ $(n \leq m)$ is the height complex $2l$ $(l \leq n; 2m - n + 1)$:
+
+\[
+I \hat{\cup} E = U \hat{/} \bigl( \bigl( U \hat{/} I \bigl) 
+ \hat{/} E \bigl)
+\]
+
+The value of a fuzzy expression (predicate) in parametric fuzzy logic can be calculated as the length $\text{hvol}_1 (C)$, area $\text{hvol}_2 (C)$, volume $\text{hvol}_3 (C)$ or hyper-volume $\text{hvol}_{\text{dim}}(C)$ of a simplicial complex. For each simplicial complex with a basis in linear vector space, a minimal covering simplex can be given, and its dimension (in $n$), equal to the dimension of the maximal simplex in the complex, can also be computed. If the space is $n$-dimensional, the value of the fuzzy expression can be computed:
+
+\[
+1 + 2^{-\text{dim} (C)} \times (\text{hvol}_{\text{dim}(C)} (C) - 2)
+\]
+
+For the corresponding fuzzy operations, the properties of the fuzzy measure will also be fulfilled:
+
+\[
+A \stackrel{\sim}{\wedge} B \leq A \]
+\[
+A \leq A \stackrel{\sim}{\lor} B
+\]
+
+Another kind of non-classical logics [4], [5] are substructural logics in which (structural) properties of deducibility such as monotonicity, contraction (absorption) 
+
+
+\end{document}
